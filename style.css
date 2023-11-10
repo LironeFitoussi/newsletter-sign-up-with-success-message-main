@@ -1,8 +1,37 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+    url('./assets/fonts/Roboto-Bold.ttf')
+    format('TrueType');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+    url('./assets/fonts/Roboto-Regular.ttf')
+    format('TrueType');
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#signup-page > main {
+    padding: 5vw;
+}
 
 .header-element {
     width: 100%;
     position: relative;
     top: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
 }
 
 form {
