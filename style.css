@@ -1,3 +1,19 @@
+
+.header-element {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-elem {
+    
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,3 +21,4 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
