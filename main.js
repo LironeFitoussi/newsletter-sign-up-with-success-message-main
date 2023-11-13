@@ -48,7 +48,7 @@ function success() {
       <section id="success-page">
         <!-- Success message start -->
         <div class="successMsg">
-            <img class="successPageLogo" src="./assets/images/icon-list.svg" alt="">
+            <img class="successPageLogo" src="./assets/images/icon-success.svg" alt="">
             <h1 >Thanks for subscribing!</h1>
             <p>
                 A confirmation email has been sent to <strong>${document.querySelector("input").value}</strong>. 

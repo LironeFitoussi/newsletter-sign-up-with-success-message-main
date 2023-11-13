@@ -31,5 +31,33 @@ p {
 button {
     width: 100%;
     border-radius: .5rem;
-    padding: 3vh 3vw;
+    padding: 2.5vh 3vw;
+}
+
+@media screen and (min-width: 900px){
+    #success-page {
+        min-height: 50vh;
+        border-radius: 2.5rem;
+    }
+
+    section {
+        width: 25vw;
+        padding: 5.5vh 3.5vw;
+        margin-bottom: 0;
+        border: none;
+    }
+
+    h1 {
+        font-size: 6.5vh;
+    }
+
+    p {
+        margin: 0;
+        font-size: 2vh;
+    }
+
+    button {
+        margin-top: 5vh;
+        font-size: 2vh;
+    }
 }
