@@ -72,4 +72,11 @@ function success() {
         location.reload();
       });
   }
+
+  const screenType = window.innerWidth;
+  if (screenType > 900) {
+    console.log("this is a pc");
+    const headerImg = document.querySelector(".header-element");
+    headerImg.src = "./assets/images/illustration-sign-up-desktop.svg";
+  }
   
