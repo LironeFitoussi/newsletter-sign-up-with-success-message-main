@@ -30,6 +30,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--Dark-Slate-Grey);
+    margin: 0;
 }
 
 header {
@@ -154,7 +155,11 @@ button:hover {
     }
 
     h1 {
-        font-size: 6vh;
+        font-size: 6.5vh;
+    }
+
+    main {
+        justify-content: center;
     }
 
     body {
@@ -199,7 +204,7 @@ button:hover {
 
     section {
         background-color: #fff;
-        /* width: fit-content; */
+        width: 60vw;
         /* height: 75vh; */
         border-radius: 1.5rem;
         border: 2.5vh solid #fff;
