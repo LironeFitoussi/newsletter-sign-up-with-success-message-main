@@ -18,6 +18,7 @@
 /* ## Colors */
 /* ### Primary */
 --Tomato: hsl(4, 100%, 67%);
+--Light-Tomato: hsla(4, 100%, 67%, 0.15);
 
 /* ### Neutral */
 --Dark-Slate-Grey: hsl(234, 29%, 20%);
@@ -79,9 +80,19 @@ form {
     margin-top: 4vh;
 }
 
+#labels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 label {
     font-size: 3vw;
     font-weight: 700;
+}
+
+#errorMsg {
+    text-align: right;
+    color: var(--Tomato);
 }
 
 form > div {
@@ -90,7 +101,11 @@ form > div {
     gap: 3.5vh;
 }
 
-
+.errorState {
+    border: 1px solid var(--Tomato);
+    background-color: var(--Light-Tomato);
+    color: var(--Tomato);
+}
 
 .btn-elem {
     padding: 1rem;
