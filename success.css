@@ -1,0 +1,35 @@
+section {
+    margin-bottom: 4vh;
+}
+
+#success-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 90vh;
+}
+
+.successMsg {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.successPageLogo {
+    width: 20%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 12vw;
+}
+
+p {
+    font-size: 5vw;
+}
+
+button {
+    width: 100%;
+    border-radius: .5rem;
+    padding: 3vh 3vw;
+}
